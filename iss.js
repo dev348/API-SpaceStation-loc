@@ -24,7 +24,7 @@ async function getIss(){
     const response = await fetch(Iss_Url);
     const data =  await response.json();
     const {latitude,longitude} = data;
-    console.log(latitude,longitude);
+   // console.log(latitude,longitude);
 
     marker.setLatLng([latitude,longitude]);
     document.getElementById("lat").textContent =latitude;
