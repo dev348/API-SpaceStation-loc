@@ -35,4 +35,4 @@ async function getIss(){
 
 
 
-setInterval(getIss,1000)
+setInterval(getIss,3000)
